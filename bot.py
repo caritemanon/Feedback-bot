@@ -83,7 +83,7 @@ async def donate(bot, message):
         ])
     )
 
-@user_admin
+
 @bot.on_message(filters.private & filters.text)
 async def pm_text(bot, message):
     if message.from_user.id == owner_id:
