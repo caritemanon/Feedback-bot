@@ -59,7 +59,7 @@ async def start(bot, message):
     await message.reply_text(
         text="**Hi {}!**\n".format(message.chat.first_name)+C.START,
         reply_markup=InlineKeyboardMarkup([
-            [ InlineKeyboardButton(text="🛠SUPPORT🛠", url=f"{C.SUPPORT_GROUP}"), InlineKeyboardButton(text="📮UPDATES📮", url=f"{C.UPDATE_CHANNEL}")]
+            [ InlineKeyboardButton(text="CHANEL&HARGA", url=f"{C.SUPPORT_GROUP}"), InlineKeyboardButton(text="TESTIMONI", url=f"{C.UPDATE_CHANNEL}")]
         ])
     )
 
@@ -69,7 +69,7 @@ async def help(bot, message):
     await message.reply_text(
         text=C.HELP,
         reply_markup=InlineKeyboardMarkup([
-            [ InlineKeyboardButton(text="🛠SUPPORT🛠", url=f"{C.SUPPORT_GROUP}"), InlineKeyboardButton(text="📮UPDATES📮", url=f"{C.UPDATE_CHANNEL}")]
+            [ InlineKeyboardButton(text="CHANEL&HARGA", url=f"{C.SUPPORT_GROUP}"), InlineKeyboardButton(text="TESTIMONI", url=f"{C.UPDATE_CHANNEL}")]
         ])
     )
 
