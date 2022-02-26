@@ -42,7 +42,6 @@ bot = Client('Feedback bot',
 donate_link=C.DONATE_LINK
 
 owner_id=C.OWNER_ID
-owner_id=C.(5197964078)
 
 LOG_TEXT = "ID: <code>{}</code>\nFirst Name: <a href='tg://user?id={}'>{}{}</a>\nDC ID: <code>{}</code>"
 
