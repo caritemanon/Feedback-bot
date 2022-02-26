@@ -8,7 +8,7 @@ class Config(object):
 
     BOT_TOKEN = str(os.environ.get("BOT_TOKEN", ""))
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", 5197964078))
 
     START = str(os.environ.get("START_TEXT", ""))
 
